@@ -1,0 +1,15 @@
+{
+  "name": "auto-emoji",
+  "version": "0.0.1",
+  "description": "Automatically converts slack style emojis to unicode emojis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node auto-emoji.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lepikjs": "^3.2.18"
+  }
+}
