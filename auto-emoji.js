@@ -26,6 +26,7 @@ class Context {
     this.isCaps = val
   }
   clear () {
+    this.isSearching = false
     this.state = ''
   }
   startSearch () {
@@ -63,8 +64,8 @@ lepik.on('keyDown', (data) => {
     return
   }
 
-  if (k === 'space' && context.isSearching) {
-    context.add(' ')
+  if (k === 'space') {
+    context.clear()
     return
   }
 
