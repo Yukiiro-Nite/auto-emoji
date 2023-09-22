@@ -50,7 +50,7 @@ module.exports = {
 ```
 
 ## Acknowledgments
-    Auto-Emoji was created using the [lepikjs](https://www.npmjs.com/package/lepikjs) library.
+Auto-Emoji was created using the [lepikjs](https://www.npmjs.com/package/lepikjs) library.
 
 ## Contributing
 Feel free to contribute to this project by opening issues or creating pull requests.
