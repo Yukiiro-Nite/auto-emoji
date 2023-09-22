@@ -2,7 +2,7 @@
 Auto-Emoji is a Node.js script that allows you to easily insert emojis into your text by typing simple shortcuts. It listens to your keyboard input and, when a specific sequence is typed, replaces it with the corresponding emoji. This can be a fun and convenient way to quickly add emojis to your text without needing to search for them manually.
 
 ## Features
-- Type shortcuts like :smile: to insert 😀.
+- Type shortcuts like `:smile:` to insert 😀.
 - Supports uppercase and lowercase shortcuts.
 - Works with or without Caps Lock.
 - Reverts to regular typing when not using shortcuts.
@@ -34,7 +34,7 @@ Auto-Emoji is a Node.js script that allows you to easily insert emojis into your
   npm run start
   ```
 2. Auto-Emoji will now listen to your keyboard input.
-3. To insert emojis, type shortcuts like :heart: and they will be replaced with the corresponding emojis. For example, :heart: becomes ❤️.
+3. To insert emojis, type shortcuts like `:heart:` and they will be replaced with the corresponding emojis. For example, `:heart:` becomes ❤️.
 4. Press Enter or Tab to clear any partially typed shortcuts.
 5. Clicking the mouse will also clear any partially typed shortcuts.
 
